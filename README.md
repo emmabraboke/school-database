@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# School Database Application
+
+The school database application is an hypothetical platform that manages students record.
+
+
+## Features
+
+- Add new student records
+- View existing student records
+- Manage student records
+
 
 ## Getting Started
 
@@ -20,17 +30,18 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+### Adding a New Student Record
+- Click on the "Add Record" button.
+- Fill in the details for the new student record in the form:
+   - Name
+   - Age
+   - Email
+   - Graduation Year
+   - Current Class
+   - Click the "Add Record" button to submit the form.
+   - The new student record will be added to the database.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Viewing Student Records
+The main page displays a list of all student records. You can view the details of each student record.
